@@ -1,6 +1,6 @@
 # Play with Tailwind CSS
 
-<img src="tailwind-logo.jpeg" alt="Tailwind Logo" style="zoom: 80%;" />
+<img src="assets/tailwind-logo.jpeg" alt="Tailwind Logo" style="zoom: 80%;" />
 
 
 
