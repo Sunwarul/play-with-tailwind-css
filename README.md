@@ -1,5 +1,9 @@
 # Play with Tailwind CSS
 
+<img src="tailwind-logo.jpeg" alt="Tailwind Logo" style="zoom: 80%;" />
+
+
+
 **Installation**
 
 ```javascript
@@ -9,7 +13,7 @@ npm init -y
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 
 ```
-These commands will create a directory called `myapp` initialize a `package.json` file and install all `dev` dependencies. After these your `package.json` fill will have these dev-dependencies:
+These commands will create a directory called `myapp` initialize a `package.json` file and install all `dev` dependencies. After these your `package.json` fill will have these dev dependencies:
 
 ```
 
@@ -21,12 +25,13 @@ These commands will create a directory called `myapp` initialize a `package.json
   }
 
 ```
-Then run this command to initalize with default configurations
+Then run this command to initialize with default configurations
 ```
 npx tailwindcss init
 
 ```
 `tailwind.config.js` will generated. Then create a `css` directory and a css file `css/styles.css` with these commands. 
+
 ```
 mkdir css && cd css
 touch styles.css
@@ -39,7 +44,7 @@ Insert these snippet into that file
 @tailwind utilities;
 
 ```
-You may chanage your configuration `purge` to minify your build css file, this way - 
+You may change your configuration `purge` to minify your build css file, this way - 
 ```
 // tailwind.config.js
 module.exports = {
@@ -81,4 +86,4 @@ Run `yarn build` OR `npm run build` to build
 </html>
 ```
 
-Now guess what! Just open that `html` file with a browser! 
+Open that `html` file with a browser! 
